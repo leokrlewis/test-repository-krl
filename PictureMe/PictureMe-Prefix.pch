@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'PictureMe' target in the 'PictureMe' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#if defined(__APPLE__)
+#import <TargetConditionals.h>
+#define TARGET_OS_IPAD() ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+#define TARGET_OS_DEVICE() (([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) || ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad))
+#else
+#define TARGET_OS_IPAD() (0)
+#define TARGET_OS_DEVICE() (0)
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <MobileCoreServices/UTCoreTypes.h>
+    #import "safeobjc.h"
+    #import "nspooldef.h"
+#endif
