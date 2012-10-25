@@ -53,7 +53,6 @@
 		28E2519114BDC72B0002B42A /* UITextViewEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E2517914BDC72B0002B42A /* UITextViewEx.m */; };
 		28E2519214BDC72B0002B42A /* UIViewControllerEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E2517B14BDC72B0002B42A /* UIViewControllerEx.m */; };
 		28E2519314BDC72B0002B42A /* UIViewEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E2517D14BDC72B0002B42A /* UIViewEx.m */; };
-		28F3AAB514E56F8A00E3E93E /* More.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 28F3AAB414E56F8A00E3E93E /* More.PNG */; };
 		28FCD6D214E1775F00FC1018 /* BackArrow2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 28FCD6D114E1775F00FC1018 /* BackArrow2.PNG */; };
 /* End PBXBuildFile section */
 
@@ -140,7 +139,6 @@
 		28E2517B14BDC72B0002B42A /* UIViewControllerEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewControllerEx.m; path = ../../common/UIViewControllerEx.m; sourceTree = "<group>"; };
 		28E2517C14BDC72B0002B42A /* UIViewEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewEx.h; path = ../../common/UIViewEx.h; sourceTree = "<group>"; };
 		28E2517D14BDC72B0002B42A /* UIViewEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewEx.m; path = ../../common/UIViewEx.m; sourceTree = "<group>"; };
-		28F3AAB414E56F8A00E3E93E /* More.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = More.PNG; sourceTree = "<group>"; };
 		28FCD6D114E1775F00FC1018 /* BackArrow2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackArrow2.PNG; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -201,7 +199,6 @@
 		28E2511914BDC3B90002B42A /* PictureMe */ = {
 			isa = PBXGroup;
 			children = (
-				28F3AAB414E56F8A00E3E93E /* More.PNG */,
 				28B6C11514E4181100543435 /* Text.PNG */,
 				28B6C11214E4143100543435 /* Borders.PNG */,
 				28FCD6D114E1775F00FC1018 /* BackArrow2.PNG */,
@@ -356,7 +353,6 @@
 				28FCD6D214E1775F00FC1018 /* BackArrow2.PNG in Resources */,
 				28B6C11314E4143200543435 /* Borders.PNG in Resources */,
 				28B6C11614E4181100543435 /* Text.PNG in Resources */,
-				28F3AAB514E56F8A00E3E93E /* More.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
